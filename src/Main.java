@@ -11,7 +11,7 @@ public class Main {
 		sc.useLocale(Locale.ENGLISH);
 		Locale.setDefault(new Locale("en", "US"));
 		DecimalFormat df = new DecimalFormat(".0");
-		df.setRoundingMode(RoundingMode.DOWN);
+		df.setRoundingMode(RoundingMode.HALF_DOWN);
 
 		double N1, N2, N3, N4, NE, media, mediafinal;
 		
